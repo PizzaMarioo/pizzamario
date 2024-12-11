@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.red-frame {
+    border: 2px solid red;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.red-frame:hover {
+    transform: scale(1.05);
+}
+
+.customization-section input[type='checkbox']:checked + label {
+    color: red;
+    font-weight: bold;
+}
